@@ -178,7 +178,7 @@
 }
 
 - (void)endTrackingWithTouch:(UITouch *)touch withEvent:(UIEvent *)event {
-	[self.delegate newRating:self :self.rating];
+	[self.delegate newRating:self rating:self.rating];
 	[super endTrackingWithTouch:touch withEvent:event];
 }
 

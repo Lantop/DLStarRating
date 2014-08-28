@@ -41,6 +41,6 @@
 
 @protocol DLStarRatingDelegate
 
--(void)newRating:(DLStarRatingControl *)control :(float)rating;
+-(void)newRating:(DLStarRatingControl *)control rating:(float)rating;
 
 @end
